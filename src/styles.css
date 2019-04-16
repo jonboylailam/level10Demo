@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
+}
+
+#app button {
+  max-width: 250px;
+}

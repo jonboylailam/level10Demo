@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <label for="fileUploadInput">Proof of identity uploader</label>
+      <input
+        id="fileUploadInput"
+        type="file"
+        accept="application/jpeg"
+        onchange="window.sh.uploadProofOfIdentity"
+      />
+      <button id="resend">Send again</button>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
